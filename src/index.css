@@ -1,0 +1,13 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+ul:hover{
+  cursor: pointer;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}

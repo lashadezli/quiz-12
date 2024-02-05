@@ -1,0 +1,42 @@
+.Mainpart
+{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .left-side
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        h1 
+        {
+            font-size: 80px;
+        }
+        p
+        {
+            font-size: 20px;
+            line-height: 1.9rem;
+        }
+        ul{
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 18%;
+            padding: 15px 20px;
+        }
+        .images
+        {
+            display:flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+    .right-side{
+        img {
+            height: 450px;
+            width: 390px;
+        }
+    }
+}
